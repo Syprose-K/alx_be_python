@@ -15,6 +15,6 @@ match priority:
 if time_bound == "yes":
     final_message = f"Reminder: {reminder} that requires immediate attention today!"
 else:
-    final_message = f"Note: {reminder}. Consider completing it when you have free time."
+    final_message = f"Reminder: {reminder}. Consider completing it when you have free time."
 
-print("\n" + final_message)
+print(final_message)
