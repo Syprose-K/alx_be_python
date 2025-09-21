@@ -13,8 +13,6 @@ match priority:
         reminder = f"'{task}' has an unknown priority"
 
 if time_bound == "yes":
-    final_message = f"Reminder: {reminder} that requires immediate attention today!"
+    print(f"Reminder: {reminder} that requires immediate attention today!")
 else:
-    final_message = f"Reminder: {reminder}. Consider completing it when you have free time."
-
-print(final_message)
+    print(f"Reminder: {reminder}. Consider completing it when you have free time.")
