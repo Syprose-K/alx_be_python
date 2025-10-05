@@ -1,5 +1,5 @@
 import sys
-from bank_account import BankAccount
+from programming_paradigm.bank_account import BankAccount
 
 def main():
     account = BankAccount(100)  # Example starting balance
